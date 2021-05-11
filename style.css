@@ -1,0 +1,63 @@
+body {
+    background-image: : url("bg_image_01.jpg");
+}
+
+#pageTitle {
+    text-align: center;
+    color: white;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    padding: 40px;
+    height: 80px;
+    font-size: 40px;
+
+
+}
+
+
+
+nav {
+    padding: 8px 40px;
+    background-color: #ffe4c4;
+    color: white;
+}
+
+#g_navi ul {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 3%;
+	width: 94%;
+	max-width: 960px;
+}
+	#g_navi ul li {
+		position: relative;
+		float: left;
+		width: 20%;
+	}
+		#g_navi ul li a {
+	 		display: block;
+			padding: 17px 5%;
+			width: 90%;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+		}
+
+article {
+    padding: 40px;
+    min-height : 400px;
+}
+
+footer {
+    padding: 40px;
+    height: 40px;
+    background-color : #ffdab9;
+    color: white;
+}
